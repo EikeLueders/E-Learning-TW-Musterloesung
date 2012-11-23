@@ -1,0 +1,63 @@
+[data-role="footer"] {
+	height: 44px;
+	text-align: right;
+}
+
+[data-role="footer"] p {
+	padding-right: 25px;
+	margin-top: 1em;
+	font-size: .8em;
+	color:  #AAA;
+	text-shadow: none;
+}
+
+.highlight.bold {
+	font-weight: bold;
+}
+
+.highlight.link {
+	color: #24437C;
+}
+
+
+.highlight.italic {
+	font-style: italic;
+}
+
+form.format fieldset label {
+	min-width: 20%;
+	display: inline-block;
+}
+
+.content {
+	text-shadow: none;
+}
+
+p {
+	margin: 0;
+	padding: 0;
+	padding-bottom: 1em;
+}
+
+.paginator {
+	margin: auto;
+	width: 300px;
+}
+
+.paginator .ui-btn, .paginator input {
+	display: inline-block;
+	height: 2em;
+	float: left;
+}
+
+.paginator .ui-btn {
+	margin-top: 4px;
+}
+
+.paginator input {
+	width: 120px;
+	margin: 7px 5px;
+	margin-bottom: 0;
+	position: relative;
+	bottom: 2px;
+}

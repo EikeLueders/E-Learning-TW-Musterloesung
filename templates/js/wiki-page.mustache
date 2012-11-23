@@ -1,0 +1,60 @@
+<div data-role="header">
+  <a href="#course/{{course_id}}/wiki" data-role="button" data-icon="arrow-l" data-mini="true" data-inline="true">zur&uuml;ck</a>
+  <h1>{{keyword}}</h1>
+  <div data-role="collapsible">
+    <h3>Formatierung</h3>
+    <form class="format">
+      <fieldset data-role="fieldcontain">
+	    <label>Schriftart:</label>
+	    <select id="format-font-family">
+	      <option value="serif">Serifenschrift</option>
+	      <option value="sans-serif">Serifenlose Schrift</option>
+	      <option value="cursive">Kursive Schrift</option>
+	      <option value="fantasy">Fantasy</option>
+	      <option value="monospace">Monospace</option>
+	    </select>
+	  </fieldset>
+      <fieldset data-role="fieldcontain">
+        <label>Schriftfarbe:</label>
+        <select id="format-font-color">
+          <option value="#000">Schwarz</option>
+          <option value="#FFF">Weiss</option>
+          <option value="#DDD">Helles Grau</option>
+          <option value="#333">Dunkles Grau</option>
+          <option value="#fefda1">Sepia Hell</option>
+          <option value="#723604">Sepia Dunkel</option>
+        </select>
+	  </fieldset>
+      <fieldset data-role="fieldcontain">
+        <label>Hintergrundfarbe:</label>
+        <select id="format-background-color">
+          <option value="#000">Schwarz</option>
+          <option value="#FFF">Weiss</option>
+          <option value="#DDD">Helles Grau</option>
+          <option value="#333">Dunkles Grau</option>
+          <option value="#fefda1">Sepia Hell</option>
+          <option value="#723604">Sepia Dunkel</option>
+        </select>
+	  </fieldset>
+      <fieldset data-role="fieldcontain">
+        <label>Schriftgr&ouml;&szlig;e:</label>
+        <input id="format-font-size" type="range" min="50" value="{{fontSize}}" max="200" step="5" />
+	  </fieldset>
+    </form>
+    <div style="clear:both;"></div>
+  </div>
+</div>
+
+<div class="content" data-role="content" >
+{{{body}}}
+</div>
+
+<div data-role="footer">
+  <div class="paginator" data-role="controlgroup" data-type="horizontal">
+    <a data-role="button" data-icon="back"    href="#" data-iconpos="notext" class="first" data-action="first">Erste Seite</a>
+    <a data-role="button" data-icon="arrow-l" href="#" data-iconpos="notext" class="previous" data-action="previous">Voherige Seite</a>
+    <input type="text" readonly="readonly" />
+    <a data-role="button" data-icon="arrow-r" href="#" data-iconpos="notext" class="next" data-action="next">N&auml;chste Seite</a>
+    <a data-role="button" data-icon="forward" href="#" data-iconpos="notext" class="last" data-action="last">Letzte Seite</a>
+  </div>
+</div>

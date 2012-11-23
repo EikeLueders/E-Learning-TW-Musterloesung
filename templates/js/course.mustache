@@ -1,0 +1,18 @@
+<div data-role="header">
+  <a href="#my-courses" data-role="button" data-icon="arrow-l" data-mini="true" data-inline="true">zur&uuml;ck</a>
+  <h1>{{title}}</h1>
+</div>
+
+<div class="content" data-role="content" >
+
+  <h2>{{subtitle}}</h2>
+  <h3>{{description}}</h3>
+
+  {{#showWikiLink}}
+    <a href="#course/{{course_id}}/wiki" data-role="button">Reader</a>
+  {{/showWikiLink}}
+
+</div>
+
+<div data-role="footer">
+</div>
