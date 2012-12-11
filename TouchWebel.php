@@ -1,6 +1,12 @@
 <?php
 
-# Copyright (c) 2012 - <mlunzena@uos.de>
+# Copyright (c) 2012 -
+# Tobias Thelen <tthelen@uos.de>,
+# Marcus Lunzenauer <mlunzena@uos.de>,
+# Eike Lüders <elueders@uos.de>,
+# Ron Lucke <rlucke@uos.de>,
+# Tilo Wiedera <twiedera@uos.de>,
+# Fabian Otte <>
 #
 # Permission is hereby granted, free of charge, to any person obtaining a copy
 # of this software and associated documentation files (the "Software"), to deal
@@ -20,7 +26,7 @@
 # OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 # SOFTWARE.
 
-class TouchWebelTilo extends StudipPlugin implements SystemPlugin
+class TouchWebel extends StudipPlugin implements SystemPlugin
 {
     function show_action()
     {
